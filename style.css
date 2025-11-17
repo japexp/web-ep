@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background-image: url('images/new_background.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.table {
+    border-collapse: collapse;
+    background-color: white;
+    border: 0.5px solid rgb(72, 72, 72);
+}
+.table th,
+.table td {
+    border: 0.5px solid rgb(72, 72, 72);
+}
+
+.btn {
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+    border: 0.5px solid transparent;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+.btn-green {
+    background: #1e7a47;
+    border-color: #1e7a47;
+}
+.btn-success {
+    background-color: #25975A;
+    border-color: #25975A;
+}
+.btn-danger {
+    background-color: #f44336;
+    border-color: #f44336;
+}
+.btn-purple {
+    background-color: #9C27B0;
+    border-color: #9C27B0;
+}
